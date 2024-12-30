@@ -12,14 +12,14 @@ export const MonitorRequest = () => {
             <BreadCrumbs paths={["الرئيسيه", "خدمات", "متابعة طلب ترشح"]} />
             {
                 showAlert && (
-                    <SaveAlert text={`تم تاكيد الطلب و تم تحديد موعد الانتخاب يوم 4/11/2024 
+                    <SaveAlert text={`تم تاكيد الطلب و تم تحديد موعد الانتخاب يوم 5/1/2025 
 علماً بان لجنتك الانتخابية رقم (1) مسلسل (421)`} />
                 )
             }
             <div style={{ marginRight: "5rem", marginTop: "7rem", display: "flex", }}>
                 <div style={{ flexBasis: "50%" }}>
                     <div>
-                        <Select disabled register={form.register} name="entity" label='الجهة' options={[{ label: "نادي الزمالك", value: "نادي الزمالك" }]} />
+                        <Select disabled register={form.register} name="entity" label='الجهة' options={[{ label: "نادي مصر", value: "نادي مصر" }]} />
                     </div>
                     <div style={{ marginTop: "1rem" }}>
                         <Select disabled register={form.register} name="election" label='الانتخاب' options={[{ label: "انتخابات مجلس الادارة", value: "انتخابات مجلس الادارة" }]} />
